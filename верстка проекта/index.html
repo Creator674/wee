@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kylie Cosmetics</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <!-- block "above" web-site -->
+        <section class="shipping">
+            <h1 class="shipping__text uppercase--true wrap--false">Бесплатная доставка по Беларуси <span class="shipping__text text--addition">при заказе</span> от 60 руб.</h1>
+        </section>
+
+        <section class="header-content">
+
+            <div class="content-wrapper">
+
+                <div class="burger-logo-wrapper">
+                                <!-- burger menu that will apppear at the screen resolution = 700 -->
+                    <div class="burger-menu">
+                        <a href="#" class="burger-menu__button">
+                            <span class="burger-menu__lines"></span>
+                        </a>
+                    </div>
+
+                    <div class="logo-wrapper">
+                        <h1 class="logo__text font--impact  header__text--pink uppercase--true color--pink">Kylie Cosmetics</h1>
+                        <img src="./images/logo.svg" alt="logo" class="logo__img">
+                    </div>
+
+                </div>
+                <!-- block that contains search-form block and cart block -->
+                <div class="search-cart-wrapper">
+
+                    <div class="search-form">
+                        <input type="search" placeholder="Поиск по сайту . . ." class="search-form__input font--impact">
+                        <button class="search-form__btn"></button>
+                    </div>
+
+                    <button class="cart">
+                        <span class="header__text header__text--pink font--impact color--pink wrap--false">Моя корзина</span>
+                        <img src="./images/cart.svg" alt="cart" class="cart__img">
+                    </button>
+
+                </div>
+
+            </div>
+            <!-- navigation menu with buttons -->
+            <nav class="nav">
+                <button class="nav__btn uppercase--true font--impact color--white wrap--false">Лицо</button>
+                <button class="nav__btn uppercase--true font--impact color--white wrap--false">Губы</button>
+                <button class="nav__btn uppercase--true font--impact color--white wrap--false">Глаза</button>
+                <button class="nav__btn uppercase--true font--impact color--white wrap--false">Акции</button>
+                <button class="nav__btn uppercase--true font--impact color--white wrap--false">Популярное</button>
+            </nav>
+
+        </section>
+
+    </header>
+
+    <main class="main">
+        <!-- section that represents 1st part of main -->
+        <section class="main-content">
+                <!-- section that represents 1st "floor" of main -->
+            <div class="main-content-pallete">
+
+                <aside class="aside-pallete"></aside>
+
+                <div class="palette-wrapper">
+                    <img src="./images/pallete-main.svg" alt="pallete" class="pallete-main__img">
+                    <h1 class="palette-main__text uppercase--true wrap--false">Успей купить</h1>
+                </div>
+
+            </div>
+            <!-- line that separates floors inside main -->
+            <div class="line--black"></div>
+            <!-- section that represents 2nd "floor" of main -->
+            <div class="main-content-lipsticks">
+                <!-- block that will apppear at the screen resolution < 915px-->
+                <div class="lipsticks-wrapper--mobile">
+                    <img src="./images/eyes-adaptive.svg" alt="eyes-menu" class="lipsticks__item--mobile">
+                    <img src="./images/lips-adaptive.svg" alt="lips-menu" class="lipsticks__item--mobile">
+                    <img src="./images/face-adaptive.svg" alt="face-menu" class="lipsticks__item--mobile">
+                    <img src="./images/popular-adaptive.svg" alt="popular-menu" class="lipsticks__item--mobile">
+                </div>
+
+                <div class="lipsticks-wrapper">
+                    <img src="./images/lipsticks.svg" alt="lipsticks" class="lipsticks__img">
+                    <h1 class="lipsticks__text uppercase--true wrap--false">Выбери свой цвет</h1>
+                </div>
+                <aside class="aside-lipstick">
+                    <img src="./images/aside2.svg" alt="woman" class="aside-lipstick-image">
+                </aside>
+
+            </div>
+
+            <div class="line--black"></div>
+        </section>
+        <!-- section that represents 2nd part of main -->
+        <section class="palettes-wrapper">
+            <div class="palette">
+                <img src="./images/balmain.svg" alt="balmain pallete" class="balmain-palette__img palette_img">
+                <p class="balmain-palette__text uppercase--true">Balmain палетка</p>
+            </div>
+            <div class="palette">
+                <img src="./images/midnight.svg" alt="nidnight pallete" class="midnight-palette__img palette_img">
+                <p class="midnight-palette__text uppercase--true">Midnight палетка</p>
+            </div>
+            <div class="palette">
+                <img src="./images/dream.svg" alt="dream pallete" class="dream-palette__img palette_img">
+                <p class="dream-palette__text uppercase--true">Dream палетка</p>
+            </div>
+            <div class="palette">
+                <img src="./images/night.svg" alt="night pallete" class="night-palette__img palette_img">
+                <p class="night-palette__text uppercase--true">Night палетка</p>
+            </div>
+            <div class="palette">
+                <img src="./images/stormi.svg" alt="stormi pallete" class="stormi-palette__img palette_img">
+                <p class="stormi-palette__text uppercase--true">Stormi палетка</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <section class="footer-content">
+
+            <div class="catalog-wrapper">
+                <p class="catalog-logo uppercase--true color--blue wrap--false">Каталог</p>
+                <div class="catalog-border"></div>
+                <div class="catalog-links">
+                    <a href="#" class="catalog__link uppercase--true font--impact color--white wrap--false">Лицо</a>
+                    <a href="#" class="catalog__link uppercase--true font--impact color--white wrap--false">Губы</a>
+                    <a href="#" class="catalog__link uppercase--true font--impact color--white wrap--false">Акции</a>
+                    <a href="#" class="catalog__link uppercase--true font--impact color--white wrap--false">Глаза</a>
+                </div>
+            </div>
+            <!-- shipping button that will apppear at the screen resolution < 915px -->
+            <button class="ship__btn footer__btn--adaptive">
+                <span class="ship__text uppercase--true font--impact color--pink wrap--false">доставка</span>
+            </button>
+
+            <div class="timetable-wrapper">
+                <div class="timetable-info">
+                    <p class="timetable-info__text uppercase--true color--blue wrap--false">Режим работы</p>
+                    <p class="timetable-info__text uppercase--true color--blue wrap--false">Интернет магазина</p>
+                    <p class="timetable-info__text uppercase--true color--blue wrap--false">ПН.-ВС. 10:00 - 22:00</p>
+                </div>
+                <p class="copyright__text uppercase--true color--pink wrap--false">&copy;2020KylieCosmetics</p>
+                <p class="copyright__text--adaptive font--impact color--blue wrap--false">&copy;Kylie_Cosmetics</p>
+            </div>
+
+            <div class="payment-wrapper">
+                <p class="payment__text uppercase--true color--blue wrap--false">Способы оплаты</p>
+                <div class="payment-methods">
+                    <div class="payment-method">
+                        <img src="./images/wallet.svg" alt="wallet" class="payment-method__img">
+                        <p class="payment-method__text uppercase--true color--white">Наличные курьеру</p>
+                    </div>
+                    <div class="payment-method">
+                        <img src="./images/wallet.svg" alt="wallet" class="payment-method__img">
+                        <p class="payment-method__text uppercase--true color--white">Банковской картой курьеру</p>
+                    </div>
+                </div>
+            </div>
+            <!-- payment button that will apppear at the screen resolution < 915px-->
+            <button class="payment__btn footer__btn--adaptive">
+                <span class="payment__text uppercase--true font--impact color--pink">оплата</span>
+            </button>
+
+        </section>
+
+        <section class="contacts-wrapper">
+            <a href="tel:+375293950565" class="contact__text uppercase--true font--impact wrap--false">Позвоните нам+375 29 395 95 65</a>
+            <!-- text that will apppear at the screen resolution < 915px-->
+            <p class="contact__text--adaptive uppercase--true wrap--false">Подписывайся на нас</p>
+            <div class="social-media">
+                <img src="./images/twitter-logo.svg" alt="twitter-logo" class="twitter-logo__img">
+                <img src="./images/instagram-logo.svg" alt="instagram-logo" class="instagram-logo__img">
+                <img src="./images/facebook-logo.svg" alt="facebook-logo" class="facebook-logo__img">
+            </div>
+            <a  href="tel:+375293950565" class="contact__text uppercase--true font--impact wrap--false">Позвоните нам+375 29 395 95 65</a>
+        </section>
+
+    </footer>
+</body>
+</html>
